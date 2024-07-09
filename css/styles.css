@@ -64,31 +64,60 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.02em;
 }
 
-/*----------- HEADER----------- */
+/* HEADER */
 
-.header {
-    padding-top: 24px;
-    padding-bottom: 32px;
+.header-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
+
+.header-navigation {
+    display: flex;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: space-between;
+        margin-right: 90px;
+}
+
 .header-logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.03em;
     color: #111;
+
 }
 
 .header-logo-italic {
     font-style: italic;
 }
 
+.header-menu-list {
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
 .header-menu-link {
     color: #111;
+    display: inline-block;
+        padding-bottom: 32px;
 }
 
-/*----------- ----------- */
+.header-soc-list {
+    display: flex;
+        gap: 18px;
+        
+}
 
-/*----------- HERO----------- */
+.header-soc-link {
+    padding-top: 24px;
+        padding-bottom: 32px;
+        display: inline-block;
+}
+
+
+/* HERO  */
 
 .hero {
     padding-bottom: 72px;
@@ -107,31 +136,41 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.03em;
     color: #fff;
     margin-bottom: 32px;
+    max-width: 484px;
+}
+
+.hero-buttons {
+    display: flex;align-items: center;
 }
 
 .hero-primary-btn {
     font-weight: 600;
     font-size: 14px;
     color: #fff;
+    padding: 14px 40px;
+    border-radius: 100px;
+    background-color: #FD9222;
+    border: none;
+    margin-right: 14px;
 }
 
 .hero-primary-btn:hover,
 .hero-primary-btn:focus {
-    color: #fd9222;
+    color: gray;;
+    
 }
-
-/* .hero-primary-btn:is(:hover, :focus, :active) {
-  color: #fd9222;
-} */
-/* 
-.hero-primary-btn:focus {
-  color: #fd9222;
-} */
 
 .hero-secondary-btn {
     font-weight: 600;
     font-size: 14px;
     color: #fff;
+    padding: 14px 40px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+}
+
+.hero-secondary-btn:hover, .hero-secondary-btn:focus {
+    color: #fd9222;
 }
 
 .hero-scroll-btn {
@@ -140,6 +179,7 @@ p, h1, h2, h3, h4, h5, h6 {
     line-height: 1.29;
     letter-spacing: -0.03em;
     color: #fff;
+    margin-left: auto;
 }
 
 /*----------- ----------- */

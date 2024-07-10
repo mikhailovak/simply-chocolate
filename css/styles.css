@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
 }
 
 ul {
@@ -127,6 +128,10 @@ align-items: center;
     background-color: gray;
     padding: 380px 40px 40px;
     border-radius: 30px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4)), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title {

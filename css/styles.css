@@ -71,6 +71,7 @@ p, h1, h2, h3, h4, h5, h6 {
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 }
 
 .header-navigation {
@@ -79,6 +80,7 @@ align-items: center;
         flex-grow: 1;
         justify-content: space-between;
         margin-right: 90px;
+        
 }
 
 .header-logo {
@@ -87,7 +89,6 @@ align-items: center;
     line-height: 1.11;
     letter-spacing: -0.03em;
     color: #111;
-
 }
 
 .header-logo-italic {
@@ -198,10 +199,17 @@ align-items: center;
 
 .icon-scroll-down {
     fill: #fff;
-    stroke: #fd9222;
     position: absolute;
     right: 40px;
     bottom: 40px;
+}
+
+.icon-scroll-down-arrow {
+    fill: #fd9222;
+    position: absolute;
+    z-index: 999;
+    right: 40px;
+        bottom: 40px;
 }
 
 /*----------- ----------- */

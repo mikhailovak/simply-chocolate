@@ -137,6 +137,7 @@ align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 .hero-title {
@@ -150,7 +151,8 @@ align-items: center;
 }
 
 .hero-buttons {
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .hero-primary-btn {
@@ -190,11 +192,16 @@ align-items: center;
     letter-spacing: -0.03em;
     color: #fff;
     margin-left: auto;
+    margin-right: 52px;
+    
 }
 
 .icon-scroll-down {
-    fill: transparent;
-    stroke: #fff;
+    fill: #fff;
+    stroke: #fd9222;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
 }
 
 /*----------- ----------- */

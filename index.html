@@ -38,13 +38,16 @@
         
         <ul class="header-soc-list">
             <li class="header-soc-item">
-                <a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer">insta</a>
+                <a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer">
+                    <svg class="header-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
             </li>
             <li class="header-soc-item">
-                <a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer">fb</a>
-            </li>
-            <li class="header-soc-item">
-                <a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer">twit</a>
+                <a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer"><svg class="header-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                </svg></a>
             </li>
         </ul>
         </div>
@@ -59,15 +62,20 @@
                 <div class="hero-buttons">
                     <button type="button" class="hero-primary-btn">Buy now</button>
                     <a href="#made" class="hero-secondary-btn">How it’s made</a>
-                    <a href="" class="hero-scroll-btn">scroll down</a>
+                    <a href="#features" class="hero-scroll-btn">scroll down
+                        <svg class="icon-scroll-down" width="38" height="38">
+                            <use href="./images/icons.svg#icon-scroll-down"></use>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </section>
-        <section class="features">
+        <section class="features" id="features">
             <div class="container">
                 <h2 class="visually-hidden">Features</h2>
                 <ul class="features-list">
                     <li class="features-item">
+                        <img class="features-icon" src="./images/features-icons/chocolate-icon.svg" alt="chocolate icon">
                         <h3 class="features-subtitle">Unsurpassed taste</h3>
                         <p class="features-item-text">
                             Crafted with the finest quality cocoa beans and a dedication to
@@ -77,6 +85,7 @@
                         </p>
                     </li>
                     <li class="features-item">
+                        <img src="./images/features-icons/coin-icon.svg" alt="coin icon">
                         <h3 class="features-subtitle">Affordable price</h3>
                         <p class="features-item-text">
                             Indulge in high-quality chocolate without breaking the bank with
@@ -87,6 +96,7 @@
                         </p>
                     </li>
                     <li class="features-item">
+                        <img src="./images/features-icons/spoon-icon.svg" alt="spoon icon">
                         <h3 class="features-subtitle">Own production</h3>
                         <p class="features-item-text">
                             We take pride in our own production process, ensuring that every
@@ -98,8 +108,8 @@
                 </ul>
             </div>
         </section>
-        <section class="taste">
-           <div class="container">
+        <section class="taste" id="taste">
+           <div class="container taste-container">
                 <h2 class="taste-title section-title">
                     IT ALL ADDS UP TO ONE EXCEPTIONAL
                     <span class="title-accent">TASTE</span> SENSATION
@@ -114,7 +124,7 @@
                     <li class="taste-item">
                         <img src="./images/taste-img-1-min.png" alt="mILK CHOCOLATE" width="206" height="160"
                             class="taste-image" />
-                        <h3 class="taste-subtitle">mILK CHOCOLATE</h3>
+                        <h3 class="taste-subtitle taste-subtitle-1">mILK CHOCOLATE</h3>
                     </li>
                     <li class="taste-item">
                         <img src="./images/taste-img-2-min.png" width="206" height="160" alt="Milk" class="taste-image" />
@@ -122,7 +132,7 @@
                     </li>
                     <li class="taste-item">
                         <img src="./images/taste-img-3-min.png" width="206" height="160" alt="nuts" class="taste-image" />
-                        <h3 class="taste-subtitle">nuts</h3>
+                        <h3 class="taste-subtitle taste-subtitle-1">nuts</h3>
                     </li>
                     <li class="taste-item">
                         <img src="./images/taste-img-4-min.png" width="206" height="160" alt="sEMI - SWEET CHOCOLATE"

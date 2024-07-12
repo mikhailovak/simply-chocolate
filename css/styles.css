@@ -165,11 +165,15 @@ align-items: center;
     background-color: #FD9222;
     border: none;
     margin-right: 14px;
+    transition-property: color, background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
 }
 
 .hero-primary-btn:hover,
 .hero-primary-btn:focus {
-    color: gray;;
+    color: #fd9222;
+    background-color: #fcf1e0;
     
 }
 
@@ -180,10 +184,16 @@ align-items: center;
     padding: 14px 40px;
     border-radius: 100px;
     border: 1px solid #fff;
+    transition-property: color, background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease;
+
 }
 
 .hero-secondary-btn:hover, .hero-secondary-btn:focus {
     color: #fd9222;
+    background-color: #fcf1e0;
+    
 }
 
 .hero-scroll-btn {
